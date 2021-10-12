@@ -15,6 +15,6 @@
 'ci aspetta alle colline.'.'</br>'.
 '-Cesare Pavese'.'<hr>';
 echo $stringa;
-$stringa=str_replace("colline", "***", $stringa);
+$stringa=str_replace($_GET["badword"], "***", $stringa);
 echo $stringa;
 ?>
